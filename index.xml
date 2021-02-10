@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Edgar Aranda</title>
+    <link>https://eoaranda.github.io/</link>
+    <description>Recent content on Edgar Aranda</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright><atom:link href="https://eoaranda.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About me</title>
+      <link>https://eoaranda.github.io/about/</link>
+      <pubDate>Fri, 01 Jan 2021 01:01:01 -0101</pubDate>
+      
+      <guid>https://eoaranda.github.io/about/</guid>
+      <description>HI, My name is Edgar, I live in 🗽 and I am a Senior Software Engineer with 10+ years of experience in several technologies, languages, frameworks, and databases. In this past years I have worked with plenty environments, developing tools, methodologies and version control tools for small and multinational teams.
+I have profitiently worked in different business areas like retail, e-commerce, security, education, energy and health industries.
+My main work collaboration has been in propriertary projects and companies, so its complicated to share a full spectrum of my work experience, but you can find some of my side projects in my projects section.</description>
+    </item>
+    
+  </channel>
+</rss>
