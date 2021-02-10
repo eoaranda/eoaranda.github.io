@@ -15,7 +15,9 @@
       <guid>https://earanda.dev/posts/2021/02/hugo-helpful-commands/</guid>
       <description>Hugo its a very useful framework to build websites in the geekiest way possible but at the same time I consider it very simple (depending on your skill set).
 This is a list of the most useful and only commands that I use:
-Create a new site Note: Remember you need to be in the parent folder, it will create the new folder and all the Hugo files inside of it.</description>
+
+Create a new site
+Note: Remember you need to be in the parent folder, it will create the new folder and all the Hugo files inside of it.</description>
     </item>
     
     <item>
