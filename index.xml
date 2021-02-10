@@ -6,7 +6,18 @@
     <description>Recent content on Edgar Aranda</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 09 Feb 2021 01:07:15 -0500</lastBuildDate><atom:link href="https://earanda.dev/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 09 Feb 2021 21:41:31 -0500</lastBuildDate><atom:link href="https://earanda.dev/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo Helpful Commands</title>
+      <link>https://earanda.dev/posts/2021/02/hugo-helpful-commands/</link>
+      <pubDate>Tue, 09 Feb 2021 21:41:31 -0500</pubDate>
+      
+      <guid>https://earanda.dev/posts/2021/02/hugo-helpful-commands/</guid>
+      <description>Hugo its a very useful framework to build websites in the geekiest way possible but at the same time I consider it very simple (depending on your skill set).
+This is a list of the most useful and only commands that I use:
+Create a new site Note: Remember you need to be in the parent folder, it will create the new folder and all the Hugo files inside of it.</description>
+    </item>
+    
     <item>
       <title>Projects</title>
       <link>https://earanda.dev/projects/</link>

@@ -5,8 +5,33 @@
         <description>Recent content in Posts on Edgar Aranda</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Tue, 09 Feb 2021 01:07:15 -0500</lastBuildDate>
+        <lastBuildDate>Tue, 09 Feb 2021 21:41:31 -0500</lastBuildDate>
         <atom:link href="https://earanda.dev/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Hugo Helpful Commands</title>
+            <link>https://earanda.dev/posts/2021/02/hugo-helpful-commands/</link>
+            <pubDate>Tue, 09 Feb 2021 21:41:31 -0500</pubDate>
+            
+            <guid>https://earanda.dev/posts/2021/02/hugo-helpful-commands/</guid>
+            <description>Hugo its a very useful framework to build websites in the geekiest way possible but at the same time I consider it very simple (depending on your skill set).
+This is a list of the most useful and only commands that I use:
+Create a new site Note: Remember you need to be in the parent folder, it will create the new folder and all the Hugo files inside of it.</description>
+            <content type="html"><![CDATA[<p><a href="https://gohugo.io/" target="_blank">Hugo</a> its a very useful framework to build websites in the geekiest way possible but at the same time I consider it very simple (depending on your skill set).</p>
+<p>This is a list of the most useful and only commands that I use:</p>
+<p>Create a new site
+Note: Remember you need to be in the parent folder, it will create the new folder and all the Hugo files inside of it.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">&gt; hugo new site my-blog
+</code></pre></div><p>Create a new post or a new page</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">&gt; hugo new posts/hugo-helpful-commands.md
+</code></pre></div><p>or</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">&gt; hugo projects.md
+</code></pre></div><p>Preview in localhost including drafts</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">&gt; hugo build -D
+</code></pre></div><p>Build the &lsquo;compiled&rsquo; version</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">&gt; hugo
+</code></pre></div>]]></content>
+        </item>
         
         <item>
             <title>My First Post</title>
