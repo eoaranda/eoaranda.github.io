@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>FullStack on Edgar Aranda</title>
-    <link>https://eoaranda.github.io/tags/fullstack/</link>
+    <link>https://earanda.dev/tags/fullstack/</link>
     <description>Recent content in FullStack on Edgar Aranda</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Tue, 09 Feb 2021 01:07:15 -0500</lastBuildDate><atom:link href="https://eoaranda.github.io/tags/fullstack/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 09 Feb 2021 01:07:15 -0500</lastBuildDate><atom:link href="https://earanda.dev/tags/fullstack/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My First Post</title>
-      <link>https://eoaranda.github.io/posts/2021/02/my-first-post/</link>
+      <link>https://earanda.dev/posts/2021/02/my-first-post/</link>
       <pubDate>Tue, 09 Feb 2021 01:07:15 -0500</pubDate>
       
-      <guid>https://eoaranda.github.io/posts/2021/02/my-first-post/</guid>
+      <guid>https://earanda.dev/posts/2021/02/my-first-post/</guid>
       <description>Project: This is my first electron App, maybe a little too late regarding on what is the future for electron but I needed a very minimal vertical stocks ticker app.
 Important note, the app comes AS-IS , also this was a weekend hack so expect some not tested edge cases.
 Modes If the martket is open it will display a small sun and if closed a small moon. This is not just a visual aid, but at day it will create a direct websocket connection to update data and at night it will pull data manually every 30min.</description>
