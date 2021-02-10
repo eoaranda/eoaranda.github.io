@@ -18,6 +18,11 @@
   </url>
   
   <url>
+    <loc>https://earanda.dev/tags/experience/</loc>
+    <lastmod>2021-02-09T01:07:15-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://earanda.dev/tags/fullstack/</loc>
     <lastmod>2021-02-09T01:07:15-05:00</lastmod>
   </url>
@@ -29,6 +34,16 @@
   
   <url>
     <loc>https://earanda.dev/posts/</loc>
+    <lastmod>2021-02-09T01:07:15-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://earanda.dev/tags/rambling/</loc>
+    <lastmod>2021-02-09T01:07:15-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://earanda.dev/tags/software/</loc>
     <lastmod>2021-02-09T01:07:15-05:00</lastmod>
   </url>
   

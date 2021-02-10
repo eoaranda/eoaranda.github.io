@@ -6,7 +6,6 @@
     <description>Recent content in Tags on Edgar Aranda</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
     <lastBuildDate>Tue, 09 Feb 2021 01:07:15 -0500</lastBuildDate><atom:link href="https://earanda.dev/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Engineer</title>
@@ -18,11 +17,38 @@
     </item>
     
     <item>
+      <title>Experience</title>
+      <link>https://earanda.dev/tags/experience/</link>
+      <pubDate>Tue, 09 Feb 2021 01:07:15 -0500</pubDate>
+      
+      <guid>https://earanda.dev/tags/experience/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>FullStack</title>
       <link>https://earanda.dev/tags/fullstack/</link>
       <pubDate>Tue, 09 Feb 2021 01:07:15 -0500</pubDate>
       
       <guid>https://earanda.dev/tags/fullstack/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rambling</title>
+      <link>https://earanda.dev/tags/rambling/</link>
+      <pubDate>Tue, 09 Feb 2021 01:07:15 -0500</pubDate>
+      
+      <guid>https://earanda.dev/tags/rambling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Software</title>
+      <link>https://earanda.dev/tags/software/</link>
+      <pubDate>Tue, 09 Feb 2021 01:07:15 -0500</pubDate>
+      
+      <guid>https://earanda.dev/tags/software/</guid>
       <description></description>
     </item>
     

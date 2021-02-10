@@ -6,7 +6,6 @@
     <description>Recent content on Edgar Aranda</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
     <lastBuildDate>Tue, 09 Feb 2021 01:07:15 -0500</lastBuildDate><atom:link href="https://earanda.dev/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Projects</title>
@@ -23,9 +22,8 @@
       <pubDate>Tue, 09 Feb 2021 01:07:15 -0500</pubDate>
       
       <guid>https://earanda.dev/posts/2021/02/my-first-post/</guid>
-      <description>Project: This is my first electron App, maybe a little too late regarding on what is the future for electron but I needed a very minimal vertical stocks ticker app.
-Important note, the app comes AS-IS , also this was a weekend hack so expect some not tested edge cases.
-Modes If the martket is open it will display a small sun and if closed a small moon. This is not just a visual aid, but at day it will create a direct websocket connection to update data and at night it will pull data manually every 30min.</description>
+      <description>👋 Welcome to my Site This is my first post on what would by my new blog / repository of ideas and Software Engineering ramblings.
+I will try to portray my knowledge and experience of 10+ years working from startups to multinational companies, the bad , the good, the tools, the tricks and what ever I have learned in this journey, hopefully this helps you out as it will help me keep track of my thoughts and stop saving stuff all over plus 1K+ bookmarks that I never visit.</description>
     </item>
     
     <item>
