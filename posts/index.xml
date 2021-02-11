@@ -1,25 +1,7 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-    <channel>
-        <title>Posts on Edgar Aranda</title>
-        <link>https://earanda.dev/posts/</link>
-        <description>Recent content in Posts on Edgar Aranda</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>en-us</language>
-        <lastBuildDate>Tue, 09 Feb 2021 21:41:31 -0500</lastBuildDate>
-        <atom:link href="https://earanda.dev/posts/index.xml" rel="self" type="application/rss+xml" />
-        
-        <item>
-            <title>Hugo Helpful Commands</title>
-            <link>https://earanda.dev/posts/2021/02/hugo-helpful-commands/</link>
-            <pubDate>Tue, 09 Feb 2021 21:41:31 -0500</pubDate>
-            
-            <guid>https://earanda.dev/posts/2021/02/hugo-helpful-commands/</guid>
-            <description>Hugo its a very useful framework to build websites in the geekiest way possible but at the same time I consider it very simple (depending on your skill set).
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Edgar Aranda</title><link>https://earanda.dev/posts/</link><description>Recent content in Posts on Edgar Aranda</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 09 Feb 2021 21:41:31 -0500</lastBuildDate><atom:link href="https://earanda.dev/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo Helpful Commands</title><link>https://earanda.dev/posts/2021/02/hugo-helpful-commands/</link><pubDate>Tue, 09 Feb 2021 21:41:31 -0500</pubDate><guid>https://earanda.dev/posts/2021/02/hugo-helpful-commands/</guid><description>Hugo its a very useful framework to build websites in the geekiest way possible but at the same time I consider it very simple (depending on your skill set).
 This is a list of the most useful and only commands that I use:
-
 Create a new site
-Note: Remember you need to be in the parent folder, it will create the new folder and all the Hugo files inside of it.</description>
-            <content type="html"><![CDATA[<p><a href="https://gohugo.io/" target="_blank">Hugo</a> its a very useful framework to build websites in the geekiest way possible but at the same time I consider it very simple (depending on your skill set).</p>
+Note: Remember you need to be in the parent folder, it will create the new folder and all the Hugo files inside of it.</description><content type="html"><![CDATA[<p><a href="https://gohugo.io/" target="_blank">Hugo</a> its a very useful framework to build websites in the geekiest way possible but at the same time I consider it very simple (depending on your skill set).</p>
 <p>This is a list of the most useful and only commands that I use:</p>
 <p><br>
 Create a new site</p>
@@ -36,23 +18,9 @@ Preview in localhost including drafts</p>
 </code></pre></div><p><br>
 Build the &lsquo;compiled&rsquo; version</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">&gt; hugo
-</code></pre></div>]]></content>
-        </item>
-        
-        <item>
-            <title>My First Post</title>
-            <link>https://earanda.dev/posts/2021/02/my-first-post/</link>
-            <pubDate>Tue, 09 Feb 2021 01:07:15 -0500</pubDate>
-            
-            <guid>https://earanda.dev/posts/2021/02/my-first-post/</guid>
-            <description>👋 Welcome to my Site This is my first post on what would by my new blog / repository of ideas and Software Engineering ramblings.
-I will try to portray my knowledge and experience of 10+ years working from startups to multinational companies, the bad , the good, the tools, the tricks and what ever I have learned in this journey, hopefully this helps you out as it will help me keep track of my thoughts and stop saving stuff all over plus 1K+ bookmarks that I never visit.</description>
-            <content type="html"><![CDATA[<h2 id="-welcome-to-my-site">👋 Welcome to my Site</h2>
-<p>This is my first post on what would by my new blog / repository of ideas and Software Engineering <em>ramblings</em>.</p>
+</code></pre></div>]]></content></item><item><title>My First Post</title><link>https://earanda.dev/posts/2021/02/my-first-post/</link><pubDate>Tue, 09 Feb 2021 01:07:15 -0500</pubDate><guid>https://earanda.dev/posts/2021/02/my-first-post/</guid><description>👋 Welcome to my Site This is my first post on what would by my new blog / repository of ideas and Full-Stack Engineering ramblings.
+I will try to portray my knowledge and experience of 10+ years working from startups to multinational companies, the bad , the good, the tools, the tricks and what ever I have learned in this journey, hopefully this helps you out as it will help me keep track of my thoughts and stop saving stuff all over plus 1K+ bookmarks that I never visit.</description><content type="html"><![CDATA[<h2 id="-welcome-to-my-site">👋 Welcome to my Site</h2>
+<p>This is my first post on what would by my new blog / repository of ideas and Full-Stack Engineering <em>ramblings</em>.</p>
 <p>I will try to portray my knowledge and experience of 10+ years working from startups to multinational companies, the bad , the good, the tools, the tricks and what ever I have learned in this journey, hopefully this helps you out as it will help me keep track of my thoughts and stop saving stuff all over plus 1K+ bookmarks that I never visit.</p>
 <p>Thanks for visiting</p>
-]]></content>
-        </item>
-        
-    </channel>
-</rss>
+]]></content></item></channel></rss>
