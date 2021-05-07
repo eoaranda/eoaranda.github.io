@@ -1,18 +1,18 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Edgar Aranda</title><link>https://earanda.dev/posts/</link><description>Recent content in Posts on Edgar Aranda</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 07 May 2021 13:27:29 -0400</lastBuildDate><atom:link href="https://earanda.dev/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Docker Commands Cheat Sheet</title><link>https://earanda.dev/posts/2021/05/docker-commands-cheat-sheet/</link><pubDate>Fri, 07 May 2021 13:27:29 -0400</pubDate><guid>https://earanda.dev/posts/2021/05/docker-commands-cheat-sheet/</guid><description>DOCKER Commands cheatSheet IMAGES 💿 Create a new image
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Edgar Aranda</title><link>https://earanda.dev/posts/</link><description>Recent content in Posts on Edgar Aranda</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 07 May 2021 13:27:29 -0400</lastBuildDate><atom:link href="https://earanda.dev/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Docker Commands Cheat Sheet</title><link>https://earanda.dev/posts/2021/05/docker-commands-cheat-sheet/</link><pubDate>Fri, 07 May 2021 13:27:29 -0400</pubDate><guid>https://earanda.dev/posts/2021/05/docker-commands-cheat-sheet/</guid><description>DOCKER Commands cheatSheet Images 💿 Create a new image
 docker build -t &amp;lt;image_name&amp;gt; . Remove all unused images
-docker image prune -a CONTAINERS 📦 Create a new container (not sure what is this used for)
+docker image prune -a Containers 📦 Create a new container (not sure what is this used for)
 docker create Get the process status of the containers
 docker ps -a Works as above but is the &amp;lsquo;newer&amp;rsquo; way
 docker container ls -a Remote a stopped container
 docker rm &amp;lt;container_name&amp;gt; Remove ALL old stopped containers</description><content type="html"><![CDATA[<h2 id="docker-commands-cheatsheet">DOCKER Commands cheatSheet</h2>
 <hr>
-<h3 id="images-">IMAGES 💿</h3>
+<h3 id="images-">Images 💿</h3>
 <p>Create a new image</p>
 <pre><code>docker build -t &lt;image_name&gt; .
 </code></pre><p>Remove all unused images</p>
 <pre><code>docker image prune -a
 </code></pre><hr>
-<h3 id="containers-">CONTAINERS 📦</h3>
+<h3 id="containers-">Containers 📦</h3>
 <p>Create a new container (not sure what is this used for)</p>
 <pre><code>docker create
 </code></pre><p>Get the process status of the containers</p>
@@ -24,7 +24,7 @@ docker rm &amp;lt;container_name&amp;gt; Remove ALL old stopped containers</desc
 </code></pre><p>Remove ALL old stopped containers</p>
 <pre><code>docker container prune
 </code></pre><hr>
-<h3 id="running-containers-">RUNNING CONTAINERS 👟</h3>
+<h3 id="running-containers-">Running Containers 👟</h3>
 <pre><code>docker run &lt;container-name&gt;
 </code></pre><pre><code>docker stop &lt;container-name&gt;
 </code></pre><hr>
@@ -44,11 +44,11 @@ docker rm &amp;lt;container_name&amp;gt; Remove ALL old stopped containers</desc
 </code></pre><p>Get help in any command</p>
 <pre><code>--help
 </code></pre><hr>
-<h3 id="debugging-">DEBUGGING 🕵️</h3>
+<h3 id="debugging-">Debugging 🕵️</h3>
 <pre><code>docker logs &lt;container-name&gt;
 </code></pre><pre><code>docker logs --tail 100 &lt;container-name&gt;
 </code></pre><hr>
-<h3 id="volumes">VOLUMES</h3>
+<h3 id="volumes-">Volumes 📁</h3>
 <p>Anonymous volume</p>
 <pre><code>docker run -v /app/data
 </code></pre><p>Named volume</p>
@@ -62,13 +62,13 @@ docker rm &amp;lt;container_name&amp;gt; Remove ALL old stopped containers</desc
 </code></pre><p>Remove all the volumes</p>
 <pre><code>docker volume prune 
 </code></pre><hr>
-<h3 id="networks">NETWORKS</h3>
+<h3 id="networks-">Networks 🔗</h3>
 <p>Create a new network by the name of &lsquo;network-name&rsquo;</p>
 <pre><code>docker network create &lt;network-name&gt;
 </code></pre><p>Display the existing networks:</p>
 <pre><code>docker network ls
 </code></pre><hr>
-<h3 id="composer">COMPOSER</h3>
+<h3 id="docker-composer">Docker Composer</h3>
 <p>Run specific containers/services with the up command
 Note: use -d FLAG to start in detached mode</p>
 <pre><code>docker-compose up -d server php mysql
@@ -79,7 +79,50 @@ Note: Deletes containers, networks and shuts everything down, add the -v FLAG to
 <pre><code>docker-compose up -d server
 </code></pre><p>Revaluation if something changed to build the image we run:</p>
 <pre><code>docker-compose up -d --build server
-</code></pre>]]></content></item><item><title>Hugo Helpful Commands</title><link>https://earanda.dev/posts/2021/02/hugo-helpful-commands/</link><pubDate>Tue, 09 Feb 2021 21:41:31 -0500</pubDate><guid>https://earanda.dev/posts/2021/02/hugo-helpful-commands/</guid><description>Hugo its a very useful framework to build websites in the geekiest way possible but at the same time I consider it very simple (depending on your skill set).
+</code></pre>]]></content></item><item><title>Automatic Resume Reply</title><link>https://earanda.dev/posts/2021/02/automatic-resume-reply/</link><pubDate>Thu, 11 Feb 2021 17:08:47 -0500</pubDate><guid>https://earanda.dev/posts/2021/02/automatic-resume-reply/</guid><description>Automatic Reply (Resume Reply) A few years ago I was searching for a new career opportunity and was doing all the techniques in book, and I was getting good interviews and follow ups, but I also had a busy schedule and work.
+Eventually like a snowball a lot of recruiters kept asking me for my resume and if I was interested but I couldn&amp;rsquo;t keep with the emails and I had I had FOMO</description><content type="html"><![CDATA[<h2 id="automatic-reply-resume-reply">Automatic Reply (Resume Reply)</h2>
+<p>A few years ago I was searching for a new career opportunity and was doing all the techniques in book, and I was getting good interviews and follow ups, but I also had a busy schedule and work.</p>
+<p>Eventually like a snowball a lot of recruiters kept asking me for my resume and if I was interested but I couldn&rsquo;t keep with the emails and I had I had <a href="https://en.wikipedia.org/wiki/Fear_of_missing_out" target="_blank">FOMO</a></p>
+<blockquote>
+<p>Imagine there was this great opportunity and I never replied to it on time 🙁</p>
+</blockquote>
+<p>So to cure my <strong>FOMO</strong> I had an 💡 idea to take advantage of some gmail configurations to auto reply with my <em>&ldquo;attached&rdquo;</em> resume.</p>
+<h3 id="enable-templates">Enable Templates</h3>
+<ol>
+<li>Open Your Gmail account</li>
+<li>At the top right, click ⚙️ <strong>Settings</strong> and then <strong>&ldquo;See all settings&rdquo;</strong></li>
+<li>In the Settings menu, click <strong>Advanced</strong>.</li>
+<li>In the Templates section, select Enable.</li>
+<li>Then click <strong>Save Changes</strong>.</li>
+</ol>
+<h3 id="creating-a-template">Creating a Template</h3>
+<ol>
+<li>In Gmail, Open the Compose window and write away; Make it sound personal and at the same time vague, like you where actually replying to a recruiter. Ex:</li>
+</ol>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">Hello,
+
+I am very happy that you are reaching out and that you are interested 
+in learning more about my 10+ years of experience as a Senior Software 
+Engineer. 
+
+Click here to get a copy of my resume, also feel free to contact me 
+in LinkedIn or browse my Github repositories.
+
+Best,
+</code></pre></div><ol start="2">
+<li><strong>Note:</strong> At the moment gmail does not allow you to attach files so I uploaded my resume to github and added a link in the template.</li>
+<li>After your finish your response click in the 3 dots on the bottom right of the Compose window.</li>
+<li>Then select <strong>Templates</strong> &gt; <strong>Save draft as template</strong> &gt; <strong>Save as a new Template</strong></li>
+</ol>
+<h3 id="automate-sending-templates">Automate Sending Templates</h3>
+<ol>
+<li>In Gmail, go to the search box at the top, click the Down arrow 🔽.</li>
+<li>Enter your search criteria. In my case I used &gt; <strong>Has the words: resume</strong></li>
+<li>At the bottom of the search window, click <strong>Create filter</strong>.</li>
+<li>Here check where it says <strong>Send Template</strong> and choose the template you created previously.</li>
+<li>And last just click <strong>Create filter</strong>.</li>
+</ol>
+]]></content></item><item><title>Hugo Helpful Commands</title><link>https://earanda.dev/posts/2021/02/hugo-helpful-commands/</link><pubDate>Tue, 09 Feb 2021 21:41:31 -0500</pubDate><guid>https://earanda.dev/posts/2021/02/hugo-helpful-commands/</guid><description>Hugo its a very useful framework to build websites in the geekiest way possible but at the same time I consider it very simple (depending on your skill set).
 This is a list of the most useful and only commands that I use:
 Create a new site
 Note: Remember you need to be in the parent folder, it will create the new folder and all the Hugo files inside of it.</description><content type="html"><![CDATA[<p><a href="https://gohugo.io/" target="_blank">Hugo</a> its a very useful framework to build websites in the geekiest way possible but at the same time I consider it very simple (depending on your skill set).</p>
