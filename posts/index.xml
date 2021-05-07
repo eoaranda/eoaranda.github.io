@@ -8,78 +8,83 @@ docker rm &amp;lt;container_name&amp;gt; Remove ALL old stopped containers</desc
 <hr>
 <h3 id="images-">Images 💿</h3>
 <p>Create a new image</p>
-<pre><code>docker build -t &lt;image_name&gt; .
-</code></pre><p>Remove all unused images</p>
-<pre><code>docker image prune -a
-</code></pre><hr>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">docker build -t &lt;image_name&gt; .
+</code></pre></div><p>Remove all unused images</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">docker image prune -a
+</code></pre></div><hr>
 <h3 id="containers-">Containers 📦</h3>
 <p>Create a new container (not sure what is this used for)</p>
-<pre><code>docker create
-</code></pre><p>Get the process status of the containers</p>
-<pre><code>docker ps -a
-</code></pre><p>Works as above but is the &lsquo;newer&rsquo; way</p>
-<pre><code>docker container ls -a
-</code></pre><p>Remote a stopped container</p>
-<pre><code>docker rm &lt;container_name&gt;
-</code></pre><p>Remove ALL old stopped containers</p>
-<pre><code>docker container prune
-</code></pre><hr>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">docker create
+</code></pre></div><p>Get the process status of the containers</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">docker ps -a
+</code></pre></div><p>Works as above but is the &lsquo;newer&rsquo; way</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">docker container ls -a
+</code></pre></div><p>Remote a stopped container</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">docker rm &lt;container_name&gt;
+</code></pre></div><p>Remove ALL old stopped containers</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">docker container prune
+</code></pre></div><hr>
 <h3 id="running-containers-">Running Containers 👟</h3>
-<pre><code>docker run &lt;container-name&gt;
-</code></pre><pre><code>docker stop &lt;container-name&gt;
-</code></pre><hr>
+<p>Start a container</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">docker run &lt;container-name&gt;
+</code></pre></div><p>Stop a container</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">docker stop &lt;container-name&gt;
+</code></pre></div><hr>
 <h3 id="auxiliary-flags-">Auxiliary flags 🏳️</h3>
-<pre><code>--name &lt;instance-name&gt;
-</code></pre><p>Run in detached mode:
+<p>Add a name to an instance</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">--name &lt;instance-name&gt;
+</code></pre></div><p>Run in detached mode:
 (Not attached to the current terminal UI)</p>
-<pre><code>-d
-</code></pre><p>Interactive mode</p>
-<pre><code>-it
-</code></pre><p>Remove container when done/stopped/fails</p>
-<pre><code>--rm 
-</code></pre><p>Port mapped from inside to the outside</p>
-<pre><code>-p 3000:3000
-</code></pre><p>Run container in a specific network</p>
-<pre><code>--network &lt;network-name&gt;
-</code></pre><p>Get help in any command</p>
-<pre><code>--help
-</code></pre><hr>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">-d
+</code></pre></div><p>Interactive mode</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">-it
+</code></pre></div><p>Remove container when done/stopped/fails</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">--rm 
+</code></pre></div><p>Port mapped from inside to the outside</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">-p 3000:3000
+</code></pre></div><p>Run container in a specific network</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">--network &lt;network-name&gt;
+</code></pre></div><p>Get help in any command</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">--help
+</code></pre></div><hr>
 <h3 id="debugging-">Debugging 🕵️</h3>
-<pre><code>docker logs &lt;container-name&gt;
-</code></pre><pre><code>docker logs --tail 100 &lt;container-name&gt;
-</code></pre><hr>
+<p>Show logs from a container</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">docker logs &lt;container-name&gt;
+</code></pre></div><p>Show last 100 line logs from a container</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">docker logs --tail <span style="color:#ae81ff">100</span> &lt;container-name&gt;
+</code></pre></div><hr>
 <h3 id="volumes-">Volumes 📁</h3>
 <p>Anonymous volume</p>
 <pre><code>docker run -v /app/data
 </code></pre><p>Named volume</p>
-<pre><code>docker run -v &lt;name&gt;:/app/data
-</code></pre><p>Bind Mount</p>
-<pre><code>docker run -v /&lt;path_to_local_code&gt;:/app/code
-</code></pre><p>Remove existing volume</p>
-<pre><code>docker volume rm &lt;name&gt;
-</code></pre><p>List of volumes</p>
-<pre><code>docker volume ls
-</code></pre><p>Remove all the volumes</p>
-<pre><code>docker volume prune 
-</code></pre><hr>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">docker run -v &lt;name&gt;:/app/data
+</code></pre></div><p>Bind Mount</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">docker run -v /&lt;path_to_local_code&gt;:/app/code
+</code></pre></div><p>Remove existing volume</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">docker volume rm &lt;name&gt;
+</code></pre></div><p>List of volumes</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">docker volume ls
+</code></pre></div><p>Remove all the volumes</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">docker volume prune 
+</code></pre></div><hr>
 <h3 id="networks-">Networks 🔗</h3>
 <p>Create a new network by the name of &lsquo;network-name&rsquo;</p>
-<pre><code>docker network create &lt;network-name&gt;
-</code></pre><p>Display the existing networks:</p>
-<pre><code>docker network ls
-</code></pre><hr>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">docker network create &lt;network-name&gt;
+</code></pre></div><p>Display the existing networks:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">docker network ls
+</code></pre></div><hr>
 <h3 id="docker-composer">Docker Composer</h3>
 <p>Run specific containers/services with the up command
 Note: use -d FLAG to start in detached mode</p>
-<pre><code>docker-compose up -d server php mysql
-</code></pre><p>Get docker compose down use:
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">docker-compose up -d server php mysql
+</code></pre></div><p>Get docker compose down use:
 Note: Deletes containers, networks and shuts everything down, add the -v FLAG to remove the volumes</p>
-<pre><code>docker-compose down
-</code></pre><p>After adding the depends_on we can run only:</p>
-<pre><code>docker-compose up -d server
-</code></pre><p>Revaluation if something changed to build the image we run:</p>
-<pre><code>docker-compose up -d --build server
-</code></pre>]]></content></item><item><title>Automatic Resume Reply</title><link>https://earanda.dev/posts/2021/02/automatic-resume-reply/</link><pubDate>Thu, 11 Feb 2021 17:08:47 -0500</pubDate><guid>https://earanda.dev/posts/2021/02/automatic-resume-reply/</guid><description>Automatic Reply (Resume Reply) A few years ago I was searching for a new career opportunity and was doing all the techniques in book, and I was getting good interviews and follow ups, but I also had a busy schedule and work.
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">docker-compose down
+</code></pre></div><p>After adding the depends_on we can run only:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">docker-compose up -d server
+</code></pre></div><p>Revaluation if something changed to build the image we run:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">docker-compose up -d --build server
+</code></pre></div>]]></content></item><item><title>Automatic Resume Reply</title><link>https://earanda.dev/posts/2021/02/automatic-resume-reply/</link><pubDate>Thu, 11 Feb 2021 17:08:47 -0500</pubDate><guid>https://earanda.dev/posts/2021/02/automatic-resume-reply/</guid><description>Automatic Reply (Resume Reply) A few years ago I was searching for a new career opportunity and was doing all the techniques in book, and I was getting good interviews and follow ups, but I also had a busy schedule and work.
 Eventually like a snowball a lot of recruiters kept asking me for my resume and if I was interested but I couldn&amp;rsquo;t keep with the emails and I had I had FOMO</description><content type="html"><![CDATA[<h2 id="automatic-reply-resume-reply">Automatic Reply (Resume Reply)</h2>
 <p>A few years ago I was searching for a new career opportunity and was doing all the techniques in book, and I was getting good interviews and follow ups, but I also had a busy schedule and work.</p>
 <p>Eventually like a snowball a lot of recruiters kept asking me for my resume and if I was interested but I couldn&rsquo;t keep with the emails and I had I had <a href="https://en.wikipedia.org/wiki/Fear_of_missing_out" target="_blank">FOMO</a></p>
