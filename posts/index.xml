@@ -55,8 +55,8 @@ docker rm &amp;lt;container_name&amp;gt; Remove ALL old stopped containers</desc
 </code></pre></div><hr>
 <h3 id="volumes-">Volumes 📁</h3>
 <p>Anonymous volume</p>
-<pre><code>docker run -v /app/data
-</code></pre><p>Named volume</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">docker run -v /app/data
+</code></pre></div><p>Named volume</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">docker run -v &lt;name&gt;:/app/data
 </code></pre></div><p>Bind Mount</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">docker run -v /&lt;path_to_local_code&gt;:/app/code
