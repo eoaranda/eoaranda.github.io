@@ -1,4 +1,85 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Edgar Aranda</title><link>https://earanda.dev/posts/</link><description>Recent content in Posts on Edgar Aranda</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 09 Feb 2021 21:41:31 -0500</lastBuildDate><atom:link href="https://earanda.dev/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo Helpful Commands</title><link>https://earanda.dev/posts/2021/02/hugo-helpful-commands/</link><pubDate>Tue, 09 Feb 2021 21:41:31 -0500</pubDate><guid>https://earanda.dev/posts/2021/02/hugo-helpful-commands/</guid><description>Hugo its a very useful framework to build websites in the geekiest way possible but at the same time I consider it very simple (depending on your skill set).
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Edgar Aranda</title><link>https://earanda.dev/posts/</link><description>Recent content in Posts on Edgar Aranda</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 07 May 2021 13:27:29 -0400</lastBuildDate><atom:link href="https://earanda.dev/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Docker Commands Cheat Sheet</title><link>https://earanda.dev/posts/2021/05/docker-commands-cheat-sheet/</link><pubDate>Fri, 07 May 2021 13:27:29 -0400</pubDate><guid>https://earanda.dev/posts/2021/05/docker-commands-cheat-sheet/</guid><description>DOCKER Commands cheatSheet IMAGES 💿 Create a new image
+docker build -t &amp;lt;image_name&amp;gt; . Remove all unused images
+docker image prune -a CONTAINERS 📦 Create a new container (not sure what is this used for)
+docker create Get the process status of the containers
+docker ps -a Works as above but is the &amp;lsquo;newer&amp;rsquo; way
+docker container ls -a Remote a stopped container
+docker rm &amp;lt;container_name&amp;gt; Remove ALL old stopped containers</description><content type="html"><![CDATA[<h2 id="docker-commands-cheatsheet">DOCKER Commands cheatSheet</h2>
+<hr>
+<h3 id="images-">IMAGES 💿</h3>
+<p>Create a new image</p>
+<pre><code>docker build -t &lt;image_name&gt; .
+</code></pre><p>Remove all unused images</p>
+<pre><code>docker image prune -a
+</code></pre><hr>
+<h3 id="containers-">CONTAINERS 📦</h3>
+<p>Create a new container (not sure what is this used for)</p>
+<pre><code>docker create
+</code></pre><p>Get the process status of the containers</p>
+<pre><code>docker ps -a
+</code></pre><p>Works as above but is the &lsquo;newer&rsquo; way</p>
+<pre><code>docker container ls -a
+</code></pre><p>Remote a stopped container</p>
+<pre><code>docker rm &lt;container_name&gt;
+</code></pre><p>Remove ALL old stopped containers</p>
+<pre><code>docker container prune
+</code></pre><hr>
+<h3 id="running-containers-">RUNNING CONTAINERS 👟</h3>
+<pre><code>docker run &lt;container-name&gt;
+</code></pre><pre><code>docker stop &lt;container-name&gt;
+</code></pre><hr>
+<h3 id="auxiliary-flags-">Auxiliary flags 🏳️</h3>
+<pre><code>--name &lt;instance-name&gt;
+</code></pre><p>Run in detached mode:
+(Not attached to the current terminal UI)</p>
+<pre><code>-d
+</code></pre><p>Interactive mode</p>
+<pre><code>-it
+</code></pre><p>Remove container when done/stopped/fails</p>
+<pre><code>--rm 
+</code></pre><p>Port mapped from inside to the outside</p>
+<pre><code>-p 3000:3000
+</code></pre><p>Run container in a specific network</p>
+<pre><code>--network &lt;network-name&gt;
+</code></pre><p>Get help in any command</p>
+<pre><code>--help
+</code></pre><hr>
+<h3 id="debugging-">DEBUGGING 🕵️</h3>
+<pre><code>docker logs &lt;container-name&gt;
+</code></pre><pre><code>docker logs --tail 100 &lt;container-name&gt;
+</code></pre><hr>
+<h3 id="volumes">VOLUMES</h3>
+<p>Anonymous volume</p>
+<pre><code>docker run -v /app/data
+</code></pre><p>Named volume</p>
+<pre><code>docker run -v &lt;name&gt;:/app/data
+</code></pre><p>Bind Mount</p>
+<pre><code>docker run -v /&lt;path_to_local_code&gt;:/app/code
+</code></pre><p>Remove existing volume</p>
+<pre><code>docker volume rm &lt;name&gt;
+</code></pre><p>List of volumes</p>
+<pre><code>docker volume ls
+</code></pre><p>Remove all the volumes</p>
+<pre><code>docker volume prune 
+</code></pre><hr>
+<h3 id="networks">NETWORKS</h3>
+<p>Create a new network by the name of &lsquo;network-name&rsquo;</p>
+<pre><code>docker network create &lt;network-name&gt;
+</code></pre><p>Display the existing networks:</p>
+<pre><code>docker network ls
+</code></pre><hr>
+<h3 id="composer">COMPOSER</h3>
+<p>Run specific containers/services with the up command
+Note: use -d FLAG to start in detached mode</p>
+<pre><code>docker-compose up -d server php mysql
+</code></pre><p>Get docker compose down use:
+Note: Deletes containers, networks and shuts everything down, add the -v FLAG to remove the volumes</p>
+<pre><code>docker-compose down
+</code></pre><p>After adding the depends_on we can run only:</p>
+<pre><code>docker-compose up -d server
+</code></pre><p>Revaluation if something changed to build the image we run:</p>
+<pre><code>docker-compose up -d --build server
+</code></pre>]]></content></item><item><title>Hugo Helpful Commands</title><link>https://earanda.dev/posts/2021/02/hugo-helpful-commands/</link><pubDate>Tue, 09 Feb 2021 21:41:31 -0500</pubDate><guid>https://earanda.dev/posts/2021/02/hugo-helpful-commands/</guid><description>Hugo its a very useful framework to build websites in the geekiest way possible but at the same time I consider it very simple (depending on your skill set).
 This is a list of the most useful and only commands that I use:
 Create a new site
 Note: Remember you need to be in the parent folder, it will create the new folder and all the Hugo files inside of it.</description><content type="html"><![CDATA[<p><a href="https://gohugo.io/" target="_blank">Hugo</a> its a very useful framework to build websites in the geekiest way possible but at the same time I consider it very simple (depending on your skill set).</p>
