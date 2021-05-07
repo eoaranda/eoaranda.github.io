@@ -39,7 +39,7 @@ docker rm &amp;lt;container_name&amp;gt; Remove ALL old stopped containers</desc
 </code></pre></div><p>Interactive mode</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">-it
 </code></pre></div><p>Remove container when done/stopped/fails</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">--rm 
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">rm 
 </code></pre></div><p>Port mapped from inside to the outside</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">-p 3000:3000
 </code></pre></div><p>Run container in a specific network</p>
